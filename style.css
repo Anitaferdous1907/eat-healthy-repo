@@ -7,18 +7,30 @@ body {
     color: orangered;
 }
 
-.Link-button {
-    text-decoration: none;
-
+section {
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .top-width {
     width: 50%;
+    padding-left: 2%;
 }
 
 .top-width img {
-    width: 100%;
-    padding-left: 100%;
+    width: 80%;
+    padding-left: 10%;
+
+}
+
+.Link-button {
+    text-decoration: none;
+
+    background-image: linear-gradient(orange, rgb(247, 66, 34));
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
 
 }
 
@@ -27,8 +39,26 @@ h1 {
     padding-left: 5%;
 }
 
-h3 {
+p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     padding-left: 5%;
+}
+
+.container {
+    height: 100 vh;
+    width: 80%;
+    background-image: url(images/shapes/7.png);
+
+    background-size: cover;
+
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.txt {
+    text-align: center;
 }
